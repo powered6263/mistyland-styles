@@ -22,6 +22,7 @@ font-display: swap;
   --scale: calc(100vw / var(--cont));
   /*Размеры*/
   --185px: calc(185 * var(--scale));
+  --50px: calc(50 * var(--scale));
   --25px: calc(25 * var(--scale));
   --20px: calc(20 * var(--scale));
   --18px: calc(18 * var(--scale));
@@ -149,13 +150,35 @@ font-display: swap;
   opacity: 0.9;
 }
 
-
-
-
 @media (max-width:1200px) {
     
+/*Переменные для масштабирования*/
+:root {
+  /*Размер контейнера*/
+  --cont: 300;
+}
 
-    
+/*Основной контейнер виджета*/
+.l-start__content .b-start {
+  flex-direction: column;
+}
+
+/*Контейнер формы*/
+.l-start__content .b-start__filter-field {
+  flex-direction: column;
+}
+
+/*Поле формы*/
+.l-start__content .b-select-ghost {
+  width: 100% !important;
+  min-width: 100%;
+}
+
+/*Кнопка искать*/
+.l-start__content .s-btn {
+  height: var(--px50);
+}
+  
 }
 
 @media (max-width:640px) {
