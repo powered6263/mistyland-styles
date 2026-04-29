@@ -1,3 +1,20 @@
-.b-start {
-    /* background: red; */
+@font-face {
+font-family: 'InterDisplay';
+src: url('./InterDisplay-Medium.woff2') format('woff2');
+font-weight: 500;
+font-style: medium;
+font-display: swap;
+}
+
+@font-face {
+font-family: 'InterDisplay';
+src: url('./InterDisplay-SemiBold.woff2') format('woff2');
+font-weight: 600; /* ключевой момент */
+font-style: semibold;
+font-display: swap;
+}
+
+.s-btn {
+  font-family: 'InterDisplay', Arial, sans-serif;
+  font-weight: 600;
 }
