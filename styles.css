@@ -26,8 +26,11 @@ font-display: swap;
   --px25: calc(25 * var(--scale));
   --px20: calc(20 * var(--scale));
   --px18: calc(18 * var(--scale));
+  --px16: calc(16 * var(--scale));
   --px14: calc(14 * var(--scale));
+  --px12: calc(12 * var(--scale));
   --px10: calc(10 * var(--scale));
+  --px8: calc(8 * var(--scale));
   --px5: calc(5 * var(--scale));
 }
 
