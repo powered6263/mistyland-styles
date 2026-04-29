@@ -105,8 +105,8 @@ font-display: swap;
 
 /*Иконка персоны*/
 .l-start__content .icon-guest {
-  width: 2.9412vw; /*20px относительно 680*/
-  height: 2.9412vw; /*20px относительно 680*/
+  width: var(--px20);
+  height: var(--px20);
   background-image: url('./person.svg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -115,9 +115,9 @@ font-display: swap;
 
 /*Иконка стрелочки*/
 .l-start__content .b-select-ghost:after {
-  right: 0.7353vw; /*5px относительно 680*/
-  width: 1.7647vw; /*12px относительно 680*/
-  height: 1.1765vw; /*8px относительно 680*/
+  right: var(--px5);
+  width: var(--px12);
+  height: var(--px8);
   background-image: url('./arrow-widget.svg');
   top: 50%;
   margin-top: 0;
@@ -135,7 +135,7 @@ font-display: swap;
   font-family: 'InterDisplay', Arial, sans-serif;
   font-weight: 600;
   line-height: 1;
-  font-size: 2.3529vw; /*16px относительно 680*/
+  font-size: var(--px16);
   background: #4B463B !important;
   color: #F7F1DF;
   text-transform: initial;
@@ -178,6 +178,7 @@ font-display: swap;
 /*Кнопка искать*/
 .l-start__content .s-btn {
   height: var(--px50);
+  font-size: var(--px14);
 }
   
 }
