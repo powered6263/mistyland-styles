@@ -25,12 +25,13 @@ font-display: swap;
   padding: 0;
   flex-wrap: nowrap;
   gap: 2.9412vw; /*20px относительно 680*/
+  justify-content: flex-start;
 }
 
 /*Контейнер формы*/
 .l-start__content .b-start__filter-field {
   flex-wrap: nowrap;
-  flex-grow: 0;
+  flex: 0;
   gap: 2.9412vw; /*20px относительно 680*/
 }
 
@@ -38,6 +39,7 @@ font-display: swap;
   flex-direction: column;
   align-items: flex-start;
   gap: 0.7353vw; /*5px относительно 680*/
+  flex: 0;
   margin: 0;
   width: fit-content !important;
 }
@@ -101,6 +103,10 @@ font-display: swap;
 }
 
 /*Кнопка искать*/
+.l-start__content .b-start__submit-field {
+  flex: 1;
+}
+
 .l-start__content .s-btn {
   font-family: 'InterDisplay', Arial, sans-serif;
   font-weight: 600;
@@ -109,6 +115,9 @@ font-display: swap;
   backgroun: #4B463B;
   color: #F7F1DF;
   text-transform: initial;
+  width: 100%;
+  margin: 0;
+  border-radius: 4px;
 }
 
 
