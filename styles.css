@@ -19,15 +19,15 @@ font-display: swap;
   /*Размер контейнера*/
   --cont: 680;
   /*Множиель*/
-  --scale: 1vw / var(--cont);
+  --scale: calc(1vw / var(--cont));
   /*Размеры*/
-  --185px: calc(185 * var(--scale);
-  --25px: calc(25 * var(--scale);
-  --20px: calc(20 * var(--scale);
-  --18px: calc(18 * var(--scale);
-  --14px: calc(14 * var(--scale);
-  --10px: calc(10 * var(--scale);
-  --5px: calc(5 * var(--scale);
+  --185px: calc(185 * var(--scale));
+  --25px: calc(25 * var(--scale));
+  --20px: calc(20 * var(--scale));
+  --18px: calc(18 * var(--scale));
+  --14px: calc(14 * var(--scale));
+  --10px: calc(10 * var(--scale));
+  --5px: calc(5 * var(--scale));
 }
 
 /*Основной контейнер виджета*/
