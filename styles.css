@@ -63,6 +63,7 @@ font-display: swap;
   gap: 1.4706vw; /*10px относительно 680*/
   background: #F7F1DF;
   border-radius: 4px;
+  width: fit-content;
 }
 
 .l-start__content .b-select-ghost-content {
@@ -71,6 +72,7 @@ font-display: swap;
   font-weight: 500;
   line-height: 1;
   color: #4B463B;
+  white-space: nowrap;
 }
 
 /*Иконка календаря*/
@@ -78,6 +80,8 @@ font-display: swap;
   width: 2.6471vw; /*18px относительно 680*/
   height: 2.9412vw; /*20px относительно 680*/
   background-image: url(./calendar.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
   margin: 0;
 }
 
@@ -86,6 +90,8 @@ font-display: swap;
   width: 2.9412vw; /*20px относительно 680*/
   height: 2.9412vw; /*20px относительно 680*/
   background-image: url('./person.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
   margin: 0;
 }
 
