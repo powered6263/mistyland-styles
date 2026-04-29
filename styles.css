@@ -21,19 +21,19 @@ font-display: swap;
   /*Множиель*/
   --scale: calc(100vw / var(--cont));
   /*Размеры*/
-  --185px: calc(185 * var(--scale));
-  --50px: calc(50 * var(--scale));
-  --25px: calc(25 * var(--scale));
-  --20px: calc(20 * var(--scale));
-  --18px: calc(18 * var(--scale));
-  --14px: calc(14 * var(--scale));
-  --10px: calc(10 * var(--scale));
-  --5px: calc(5 * var(--scale));
+  --px185: calc(185 * var(--scale));
+  --px50: calc(50 * var(--scale));
+  --px25: calc(25 * var(--scale));
+  --px20: calc(20 * var(--scale));
+  --px18: calc(18 * var(--scale));
+  --px14: calc(14 * var(--scale));
+  --px10: calc(10 * var(--scale));
+  --px5: calc(5 * var(--scale));
 }
 
 /*Основной контейнер виджета*/
 .l-start__content {
-  padding: var(--10px);
+  padding: var(--px10);
 }
 
 .l-start__content .b-start {
@@ -41,7 +41,7 @@ font-display: swap;
   box-shadow: none;
   padding: 0;
   flex-wrap: nowrap;
-  gap: var(--20px);
+  gap: var(--px20);
   justify-content: flex-start;
 }
 
@@ -49,13 +49,13 @@ font-display: swap;
 .l-start__content .b-start__filter-field {
   flex-wrap: nowrap;
   flex: 0;
-  gap: var(--20px);
+  gap: var(--px20);
 }
 
 .l-start__content .b-start__field {
   flex-direction: column;
   align-items: flex-start;
-  gap: var(--5px);
+  gap: var(--px5);
   flex: 0;
   margin: 0;
   width: fit-content;
@@ -65,7 +65,7 @@ font-display: swap;
 .l-start__content .b-start__field-label {
   color: #4B463B;
   padding: 0;
-  font-size: var(--10px);
+  font-size: var(--px10);
   font-family: 'InterDisplay', Arial, sans-serif;
   font-weight: 500;
   line-height: 1;
@@ -75,17 +75,17 @@ font-display: swap;
 .l-start__content .b-select-ghost {
   height: fit-content;
   border: none;
-  padding: var(--5px);
-  padding-right: var(--25px);
-  gap: var(--10px);
+  padding: var(--px5);
+  padding-right: var(--px25);
+  gap: var(--px10);
   background: #F7F1DF;
   border-radius: 4px;
-  width: var(--185px) !important;
-  min-width: var(--185px);
+  width: var(--px185) !important;
+  min-width: var(--px185);
 }
 
 .l-start__content .b-select-ghost-content {
-  font-size: var(--14px);
+  font-size: var(--px14);
   font-family: 'InterDisplay', Arial, sans-serif;
   font-weight: 500;
   line-height: 1;
@@ -95,8 +95,8 @@ font-display: swap;
 
 /*Иконка календаря*/
 .l-start__content .icon-calendar {
-  width: var(--18px);
-  height: var(--20px);
+  width: var(--px18);
+  height: var(--px20);
   background-image: url(./calendar.svg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -166,6 +166,7 @@ font-display: swap;
 /*Контейнер формы*/
 .l-start__content .b-start__filter-field {
   flex-direction: column;
+  width: 100% !important;
 }
 
 /*Поле формы*/
