@@ -14,6 +14,17 @@ font-style: semibold;
 font-display: swap;
 }
 
+/*Основной контейнер виджета*/
+.l-start__content {
+  padding: 1.4706vw;
+}
+
+.b-start {
+  background: transparent;
+  box-shadow: none;
+  padding: 0;
+}
+
 .s-btn {
   font-family: 'InterDisplay', Arial, sans-serif;
   font-weight: 600;
