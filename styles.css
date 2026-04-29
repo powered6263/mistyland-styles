@@ -14,9 +14,24 @@ font-style: semibold;
 font-display: swap;
 }
 
+/*Переменные для масштабирования*/
+:root {
+  /*Размер контейнера*/
+  --cont: 680;
+  /*Множиель*/
+  --scale: 1vw / var(--cont)
+  /*Размеры*/
+  --25px: calc(25 * var(--scale);
+  --20px: calc(20 * var(--scale);
+  --18px: calc(18 * var(--scale);
+  --14px: calc(14 * var(--scale);
+  --10px: calc(10 * var(--scale);
+  --5px: calc(5 * var(--scale);
+}
+
 /*Основной контейнер виджета*/
 .l-start__content {
-  padding: 1.4706vw; /*10px относительно 680*/
+  padding: var(--10px);
 }
 
 .l-start__content .b-start {
@@ -24,7 +39,7 @@ font-display: swap;
   box-shadow: none;
   padding: 0;
   flex-wrap: nowrap;
-  gap: 2.9412vw; /*20px относительно 680*/
+  gap: var(--20px);
   justify-content: flex-start;
 }
 
@@ -32,13 +47,13 @@ font-display: swap;
 .l-start__content .b-start__filter-field {
   flex-wrap: nowrap;
   flex: 0;
-  gap: 2.9412vw; /*20px относительно 680*/
+  gap: var(--20px);
 }
 
 .l-start__content .b-start__field {
   flex-direction: column;
   align-items: flex-start;
-  gap: 0.7353vw; /*5px относительно 680*/
+  gap: var(--5px);
   flex: 0;
   margin: 0;
   width: fit-content !important;
@@ -48,7 +63,7 @@ font-display: swap;
 .l-start__content .b-start__field-label {
   color: #4B463B;
   padding: 0;
-  font-size: 1.4706vw; /*10px относительно 680*/
+  font-size: var(--10px);
   font-family: 'InterDisplay', Arial, sans-serif;
   font-weight: 500;
   line-height: 1;
@@ -58,16 +73,16 @@ font-display: swap;
 .l-start__content .b-select-ghost {
   height: fit-content;
   border: none;
-  padding: 0.7353vw; /*5px относительно 680*/
-  padding-right: 3.6765vw; /*25px относительно 680*/
-  gap: 1.4706vw; /*10px относительно 680*/
+  padding: var(--5px);
+  padding-right: var(--25px);
+  gap: var(--10px);
   background: #F7F1DF;
   border-radius: 4px;
   width: fit-content;
 }
 
 .l-start__content .b-select-ghost-content {
-  font-size: 2.0588vw; /*14px относительно 680*/
+  font-size: var(--14px);
   font-family: 'InterDisplay', Arial, sans-serif;
   font-weight: 500;
   line-height: 1;
@@ -77,8 +92,8 @@ font-display: swap;
 
 /*Иконка календаря*/
 .l-start__content .icon-calendar {
-  width: 2.6471vw; /*18px относительно 680*/
-  height: 2.9412vw; /*20px относительно 680*/
+  width: var(--18px);
+  height: var(--20px);
   background-image: url(./calendar.svg);
   background-size: cover;
   background-repeat: no-repeat;
