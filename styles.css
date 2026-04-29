@@ -17,4 +17,5 @@ font-display: swap;
 .s-btn {
   font-family: 'InterDisplay', Arial, sans-serif;
   font-weight: 600;
+  background: red;
 }
