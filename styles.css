@@ -169,6 +169,10 @@ font-display: swap;
   width: 100% !important;
 }
 
+.l-start__content .b-start__field {
+  width: 100% !important;
+} 
+
 /*Поле формы*/
 .l-start__content .b-select-ghost {
   width: 100% !important;
