@@ -150,7 +150,7 @@ font-display: swap;
   opacity: 0.9;
 }
 
-@media (max-width:766px) {
+/* @media (max-width:766px) { */
     
 /*Переменные для масштабирования*/
 :root {
@@ -179,4 +179,4 @@ font-display: swap;
   height: var(--px50);
 }
   
-}
+/* } */
