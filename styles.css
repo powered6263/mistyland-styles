@@ -118,12 +118,18 @@ font-display: swap;
   font-weight: 600;
   line-height: 1;
   font-size: 2.3529vw; /*16px относительно 680*/
-  backgroun: #4B463B;
+  backgroun: #4B463B !important;
   color: #F7F1DF;
   text-transform: initial;
   width: 100%;
   margin: 0;
   border-radius: 4px;
+  height: 100%;
+  transition: opacity 0.2s ease;
+}
+
+.l-start__content .s-btn:hover {
+  opacity: 0.9;
 }
 
 
