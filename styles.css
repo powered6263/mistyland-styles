@@ -14,13 +14,70 @@ font-style: semibold;
 font-display: swap;
 }
 
+/*Переменные для масштабирования*/
+:root {
+    /*Экранный множитель*/
+    --screen: calc(100vw / 1200);
+    
+    /*Размерности*/
+    --px160: calc(160 * var(--screen));
+    --px40: calc(40 * var(--screen));
+    --px30: calc(30 * var(--screen));
+    --px24: calc(24 * var(--screen));
+    --px22: calc(22 * var(--screen));
+    --px20: calc(20 * var(--screen));
+    --px16: calc(16 * var(--screen));
+    --px12: calc(12 * var(--screen));
+    --px10: calc(10 * var(--screen));
+    --px8: calc(8 * var(--screen));
+    --px5: calc(5 * var(--screen));
+    --px3: calc(3 * var(--screen));
+    --px2: calc(2 * var(--screen));
+}
+
 .s-btn {
   font-family: 'InterDisplay', Arial, sans-serif;
   font-weight: 600;
   background: red;
+  font-size: var(--px16);
 }
 
 .icon-guest {
   background-image: url('./person.svg') !important;
   background-color: red;
+}
+
+
+@media (max-width:1200px) {
+    
+:root {
+    /*Экранный множитель*/
+    --screen: calc(100vw / 640);
+
+    /*Шрифты*/
+    --pin-font: var(--px8);
+
+    /*Отступы*/
+    --interblock: var(--px100);
+    --indent: var(--px10);
+    --grid-gap: var(--px10);
+
+    /*Размеры элементов*/
+    --pin-size: var(--px16);
+    --legend-line-height: var(--px2);
+    --accord-icon-size: var(--px22);
+}
+    
+}
+
+@media (max-width:640px) {
+    
+:root {
+    /*Экранный множитель*/
+    --screen: calc(100vw / 320); 
+    
+    /*Отступы*/
+    --modal-indent: var(--px10);
+}
+    
 }
