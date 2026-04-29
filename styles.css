@@ -17,7 +17,7 @@ font-display: swap;
 /*Переменные для масштабирования*/
 :root {
   /*Размер контейнера*/
-  --cont: 680;
+  --cont: 766;
   /*Множиель*/
   --scale: calc(100vw / var(--cont));
   /*Размеры*/
@@ -57,7 +57,7 @@ font-display: swap;
   gap: var(--5px);
   flex: 0;
   margin: 0;
-  width: var(--185px) !important;
+  width: fit-content;
 }
 
 /*Лейбл*/
@@ -79,7 +79,7 @@ font-display: swap;
   gap: var(--10px);
   background: #F7F1DF;
   border-radius: 4px;
-  width: fit-content;
+  width: var(--185px) !important;
 }
 
 .l-start__content .b-select-ghost-content {
