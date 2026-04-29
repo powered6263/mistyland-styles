@@ -25,6 +25,22 @@ font-display: swap;
   padding: 0;
 }
 
+/*Контейнер формы*/
+.b-start__field {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px 12px;
+  flex-grow: 1;
+  flex-basis: initial;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.7353vw;
+  margin: 0;
+  width: fit-content !important;
+}
+
+/*это потом*/
 .s-btn {
   font-family: 'InterDisplay', Arial, sans-serif;
   font-weight: 600;
