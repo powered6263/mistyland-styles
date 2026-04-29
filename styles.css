@@ -74,6 +74,17 @@ font-display: swap;
   background-image: url('./person.svg');
 }
 
+/*Иконка стрелочки*/
+.b-select-ghost:after {
+  right: 0.7353vw; /*5px относительно 680*/
+  width: 1.7647vw; /*12px относительно 680*/
+  height: 1.1765vw; /*8px относительно 680*/
+  background-image: url('./arrow-widget.svg');
+  top: 50%;
+  margin-top: 0;
+  transform: translateY(-50%);
+}
+
 /*это потом*/
 .s-btn {
   font-family: 'InterDisplay', Arial, sans-serif;
