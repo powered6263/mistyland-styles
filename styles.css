@@ -76,6 +76,7 @@ font-display: swap;
   width: 2.6471vw; /*18px относительно 680*/
   height: 2.9412vw; /*20px относительно 680*/
   background-image: url(./calendar.svg);
+  margin: 0;
 }
 
 /*Иконка персоны*/
@@ -83,6 +84,7 @@ font-display: swap;
   width: 2.9412vw; /*20px относительно 680*/
   height: 2.9412vw; /*20px относительно 680*/
   background-image: url('./person.svg');
+  margin: 0;
 }
 
 /*Иконка стрелочки*/
@@ -94,6 +96,8 @@ font-display: swap;
   top: 50%;
   margin-top: 0;
   transform: translateY(-50%);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /*Кнопка искать*/
