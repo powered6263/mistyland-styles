@@ -22,4 +22,5 @@ font-display: swap;
 
 .icon-guest {
   background-image: url('./person.svg') !important;
+  background-color: red;
 }
