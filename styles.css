@@ -2,7 +2,7 @@
 font-family: 'InterDisplay';
 src: url('./InterDisplay-Medium.woff2') format('woff2');
 font-weight: 500;
-font-style: medium;
+font-style: normal;
 font-display: swap;
 }
 
@@ -10,7 +10,7 @@ font-display: swap;
 font-family: 'InterDisplay';
 src: url('./InterDisplay-SemiBold.woff2') format('woff2');
 font-weight: 600;
-font-style: semibold;
+font-style: normal;
 font-display: swap;
 }
 
