@@ -80,6 +80,7 @@ font-display: swap;
   background: #F7F1DF;
   border-radius: 4px;
   width: var(--185px) !important;
+  min-width: var(--185px);
 }
 
 .l-start__content .b-select-ghost-content {
