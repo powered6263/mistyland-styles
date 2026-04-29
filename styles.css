@@ -19,7 +19,7 @@ font-display: swap;
   /*Размер контейнера*/
   --cont: 680;
   /*Множиель*/
-  --scale: calc(1vw / var(--cont));
+  --scale: calc(100vw / var(--cont));
   /*Размеры*/
   --185px: calc(185 * var(--scale));
   --25px: calc(25 * var(--scale));
