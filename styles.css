@@ -124,7 +124,7 @@ font-display: swap;
   background-image: url('./arrow-widget.svg');
   top: 50%;
   margin-top: 0;
-  transform: translateY(-50%);
+  transform: translateY(-50%) rotate(-90deg);
   background-size: cover;
   background-repeat: no-repeat;
 }
